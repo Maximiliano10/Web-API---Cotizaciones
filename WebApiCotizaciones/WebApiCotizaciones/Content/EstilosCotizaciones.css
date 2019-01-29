@@ -1,0 +1,44 @@
+﻿.tituloCotizaciones{
+    text-align:center;
+    text-decoration:underline;
+}
+.mb-30{
+    margin-bottom:30px;
+}
+.espacio{
+    line-height:0px;
+}
+
+
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../images/pageLoader.gif') 50% 50% no-repeat rgb(249,249,249);
+    opacity: .8;
+}
+.loaderTable {
+    position: fixed;
+    left: -275px;
+    top: -80px;
+    width: 91%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../images/loaderTable.gif) 50% 50% no-repeat;
+    opacity: 0.8;
+}
+
+.sombreado {
+    box-shadow: 3px -2px 22px 1px #504949;
+}
+
+.mb-60{
+    margin-bottom:60px;
+}
+label {
+    line-height:0.5;
+}
